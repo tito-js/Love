@@ -23,6 +23,7 @@ export default function Main() {
   const answers = [
     "Você está disposta a responder algumas perguntas?",
     "Você concordaria em criar um salsichinha, chihuahua e um golden ?",
+    "Quer ver barbie comigo?",
     "Tem certeza? Vai se apaixonar!",
     !question ? "Aceita sair comigo? 💍" : question,
   ]
