@@ -22,9 +22,9 @@ export default function Main() {
   const [currentAnswer, setCurrentAnswer] = useState(0);
   const answers = [
     "Você está disposta a responder algumas perguntas?",
-    "Você responderá com total sinceridade?",
-    "Tem certeza de que deseja continuar?",
-    !question ? "Namora comigo? 💍" : question,
+    "Você concordaria em criar um salsichinha, chihuahua e um golden ?",
+    "Tem certeza? Vai se apaixonar!",
+    !question ? "Aceita sair comigo? 💍" : question,
   ]
 
   const handleYesAnswerButton = () => {
@@ -73,14 +73,15 @@ export default function Main() {
               {!id ? (
                 <>
                   <p className="font-semibold" align="center">"
-                    <b>Meu amor por você é igual um círculo, 360º"</b> - Danilo
+                    <b>Na curva de seus olhos existe uma galáxia, Em mim reside um buraco negro. </b> - Seria egoísmo querer lhe consumir por inteira?
                   </p>
 
-                  <p align="center">Te amo Bel, minha princesinha gatinha</p>
+                  <p align="center">"Se eu pudesse descrever a beleza dos teus olhos e enumerar teus atributos em épocas vindouras... diriam: o poeta mente! A Terra jamais foi acariciada por tal toque divino.
+" - William Shakespeare.</p>
 
                   <img src={health} alt="" width={200} />
 
-                  <p className="mt-10">Made with 🤍 by <a className="font-semibold text-red-300" href="https://www.instagram.com/danilo.samw/">@danilo.samw</a></p>
+                  <p className="mt-10">Feito com amor 💜 por <a className="font-semibold text-red-300" href="https://www.instagram.com/tito.3am/">@tito.3am</a></p>
                 </>
               ) : (
                 <>
@@ -89,7 +90,7 @@ export default function Main() {
                   </p>
                   <img src={health} alt="" width={200} />
 
-                  <p className="mt-10">Made with 🤍 by <a className="font-semibold text-red-300" href="https://www.instagram.com/danilo.samw/">@danilo.samw</a></p>
+                  <p className="mt-10">Feito com amor 💜 por <a className="font-semibold text-red-300" href="https://www.instagram.com/tito.3am/">@tito.3am</a></p>
                 </>
               )}
             </div>
